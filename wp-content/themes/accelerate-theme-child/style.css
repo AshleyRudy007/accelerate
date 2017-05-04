@@ -11,6 +11,17 @@
 */
 @import url("../accelerate-theme/style.css");
 
-body {
-	background: red;
+/* Update Landing Background Img to Taxi */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+/* Update Color of Top Nav */
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* Update Color of Landing CTA Button */
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
 }
