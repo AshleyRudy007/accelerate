@@ -26,7 +26,7 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-/* Home Page Blog Post Styles */
+/* Home Page Blog Posts */
 .blog-post {
 	width: 50%;
 }
@@ -50,6 +50,27 @@
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Home Page Featured Work */
+.featured-work {
+	width: 100%;
+}
+
+.site-content h4 {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ul.homepage-featured-work {
+	list-style: none;
+}
+
+li.individual-featured-work {
+	float: left;
+	width: 33.3%;
 }
 
 /* Case Studies */
