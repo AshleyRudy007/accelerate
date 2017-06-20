@@ -62,6 +62,7 @@
 	font-family: 'Montserrat';
 	text-align: center;
 	text-transform: uppercase;
+	margin-bottom: 50px;
 }
 
 ul.homepage-featured-work {
@@ -71,6 +72,11 @@ ul.homepage-featured-work {
 li.individual-featured-work {
 	float: left;
 	width: 33.3%;
+	text-align: center;
+}
+
+a.individual-featured-work {
+	font-weight: normal;
 }
 
 /* Case Studies */
@@ -89,4 +95,16 @@ div.case-study-images img {
 	display: block;
 	margin-bottom: 50px;
 	border: 1px solid #ddd;
+}
+
+/* Case Studies Archive Page */
+div.archive-sidebar h5 {
+	color: #909090;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 0px;
+}
+
+div.archive-sidebar a {
+	font-size: 14px;
 }
