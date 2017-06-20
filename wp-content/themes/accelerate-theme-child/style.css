@@ -98,13 +98,18 @@ div.case-study-images img {
 }
 
 /* Case Studies Archive Page */
-div.archive-sidebar h5 {
+
+a#archive-title-link {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+aside#archive-sidebar h5 {
 	color: #909090;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: lighter;
 	margin-top: 0px;
 }
 
-div.archive-sidebar a {
-	font-size: 14px;
-}
+
+

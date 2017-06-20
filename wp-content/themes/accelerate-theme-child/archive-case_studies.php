@@ -17,13 +17,11 @@ get_header(); ?>
 				$services = get_field('services'); ?>
 				
 				<article class="case-study">
-					<aside class="case-study-sidebar">
-						<div class="archive-sidebar">
-							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<h5><?php echo $services; ?></h5>
-							<?php the_excerpt(); ?>
-							<p><strong><a href="<?php the_permalink(); ?>">View Project ></a></strong></p>
-						</div>
+					<aside id="archive-sidebar" class="case-study-sidebar">
+						<h2><a id="archive-title-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+						<h5><?php echo $services; ?></h5>
+						<?php the_excerpt(); ?>
+						<p><strong><a href="<?php the_permalink(); ?>">View Project ></a></strong></p>
 					</aside>
 					<div class="case-study-images">
 						<a href="<?php the_permalink(); ?>">
